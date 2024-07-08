@@ -1,6 +1,0 @@
-[submodule "submodules/queue"]
-	path = submodules/queue
-	url = https://github.com/phihc116/queue.git
-[submodule "submodules/notification"]
-	path = submodules/notification
-	url = https://github.com/phihc116/notification.git
