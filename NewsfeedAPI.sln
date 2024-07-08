@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.10.35013.160
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsfeedAPI", "NewsfeedAPI\NewsfeedAPI.csproj", "{4657BB19-7A7E-4C56-9382-4FA67F86EAE9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewsfeedAPI", "NewsfeedAPI\NewsfeedAPI.csproj", "{FD916C78-448C-42E1-A035-2442F937E308}"
 EndProject
 Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{C65FCA2D-B343-40A2-AD3E-D43621963A91}"
 EndProject
@@ -13,10 +13,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4657BB19-7A7E-4C56-9382-4FA67F86EAE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4657BB19-7A7E-4C56-9382-4FA67F86EAE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4657BB19-7A7E-4C56-9382-4FA67F86EAE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4657BB19-7A7E-4C56-9382-4FA67F86EAE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD916C78-448C-42E1-A035-2442F937E308}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD916C78-448C-42E1-A035-2442F937E308}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD916C78-448C-42E1-A035-2442F937E308}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD916C78-448C-42E1-A035-2442F937E308}.Release|Any CPU.Build.0 = Release|Any CPU
 		{C65FCA2D-B343-40A2-AD3E-D43621963A91}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{C65FCA2D-B343-40A2-AD3E-D43621963A91}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C65FCA2D-B343-40A2-AD3E-D43621963A91}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -24,8 +24,5 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {8D4BACE8-2CBA-4FD6-9C52-4314DFE1EE54}
 	EndGlobalSection
 EndGlobal
