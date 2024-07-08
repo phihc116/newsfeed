@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  newsfeedapi:
+    image: ${DOCKER_REGISTRY-}newsfeedapi
+    build:
+      context: NewsfeedAPI
+      dockerfile: Dockerfile

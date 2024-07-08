@@ -35,10 +35,17 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-using (var scope = app.Services.CreateScope())
+try
 {
-    var dbContext = scope.ServiceProvider.GetRequiredService<NewsfeedDbContext>();
-    dbContext.Database.Migrate();    
+    using (var scope = app.Services.CreateScope())
+    {
+        var dbContext = scope.ServiceProvider.GetRequiredService<NewsfeedDbContext>();
+        dbContext.Database.Migrate();
+    }
+}
+catch(Exception)
+{
+
 }
 
 
